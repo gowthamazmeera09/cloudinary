@@ -6,4 +6,5 @@ const ImageSchema = new mongoose.Schema({
     publicId: { type: String, required: true },
 });
 
+
 module.exports = mongoose.model('Image', ImageSchema);
